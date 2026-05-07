@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Sids Portfolio # the website title (if blank, full name will be used instead)
+title: "Sid's Portfolio" # the website title (if blank, full name will be used instead)
 first_name: Siddharth
 middle_name: 
 last_name: Anish
@@ -121,7 +121,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
