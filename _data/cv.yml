@@ -15,16 +15,16 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 
+    city: "Varano De' Melegari (PR)"
+    region: Emilia_Romagna
+    postalCode: 43040
+    countryCode: Italy
 
   sections:
     Education:
       - institution: MotorValley University of Emilia-Romagna
-        location: "UniMoRe, Modena(MO), Italy & Dallara Academy, Varano De' Melegari (PR), Italy"
+        location: "UniMoRe, Modena(MO), Italy &"<br> "Dallara Academy, Varano De' Melegari (PR), Italy"
         url: https://www.motorvalleyuniversity.com
         area: Advanced Automotive Engineering - Racing Car Deisgn
         studyType: Masters
