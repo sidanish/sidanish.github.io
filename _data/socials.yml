@@ -9,6 +9,6 @@ email: sidanish458@gmail.com # your email address
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/in-logo/fg/brand-inlogo-logo-dsk-v01.jpg/jcr:content/renditions/brand-inlogo-logo-dsk-v01-2x.jpg # can be png, svg, jpg
+  logo: /assets/img/linkedin_logo.png # can be png, svg, jpg
   title: LinkedIn
   url: https://www.linkedin.com/in/siddharth-anish-56663b1ab/
