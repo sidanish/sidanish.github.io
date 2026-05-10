@@ -8,7 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Varano De Melegari (PR), Italy</p>
+    <p>Welcome to my portfolio!</p>
   
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
