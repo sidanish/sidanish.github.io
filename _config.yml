@@ -185,6 +185,7 @@ exclude:
   - _pages/dropdown.md
   - _pages/news.md
   - _pages/profiles.md
+  - _pages/experience.md
   - _pages/repositories.md
   - _pages/teaching.md
   - purgecss.config.js
