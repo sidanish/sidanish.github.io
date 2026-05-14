@@ -17,45 +17,47 @@ cv:
   address:
     street: 
     city: "Varano De' Melegari (PR)"
-    region: Emilia_Romagna
+    region: Emilia-Romagna
     postalCode: 43040
     countryCode: Italy
 
   sections:
     Education:
       - institution: MotorValley University of Emilia-Romagna
-        location: "UniMoRe & Dallara Academy, Italy"
+        location: "Modena &" <br> "Varano De' Melegari, Italy"
         url: https://www.motorvalleyuniversity.com
         area: Advanced Automotive Engineering - Racing Car Deisgn
         studyType: Masters
         start_date: 2024
-        end_date: 2027 (projected)
+        end_date: present
         score: ""
-        courses: "Theory of Relativity"
+        courses: "Vehicle Dynamics, Race Car Tyres, Chassis & Body Design, CFD & Aerodynamics"
         highlights:
-          - Description 1.
-          - Description 2.
+          - 1 of 3 extra EU students selected for the Racing Car Design curriculum at MUNER.
+          - First year of the course is administered at UniMoRe and the second year is at the Dallara Academy.
+          - The course features advanced theoretical concepts regarding Vehicle Dynamics, Structures, Aerodynamics and other key subjects. <br>
+          The second year of the course has a more applied emphasis and translates theory to real life race car design cocpets.
 
       - institution: K.J Somaiya College of Engineering (University of Mumbai)
-        location: Mumbai, india
+        location: Mumbai, India
         area: Mechanical Engineering
         studyType: Bachelors
-        start_date: 1896
-        end_date: 1900
+        start_date: 2019
+        end_date: 2023
         highlights:
-          - Description 1.
-          - Description 2.
+          - Was taught advanced theoretical and practical concepts in the field of Mechanical Engineering 
+          - "Was a part of the university's Formula Student Electric team - Orion Racing India."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: More Modena Racing
+        position: Vehicle Dynamics Engineer
+        location: Modena, Italy
+        start_date: 2024
+        end_date: 2025
+        summary: In charge of initial development of the Simulink model of the UniMoRe Formula Student car. Set up intial model with the Simulink blockset in Simulink. Initiated development of a custom Pacejka Magic Formula tyre model
         highlights:
-          - Relativity
-          - Description 2.
+          - Acheived high correlation of steady state lateral and longitudinal characteristics with test data from real car
+          - Further concepts intended to recreate path of car using quasi-static data.
 
       - company: California Institute of Technology
         position: Visiting Professor
