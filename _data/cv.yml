@@ -24,7 +24,8 @@ cv:
   sections:
     Education:
       - institution: MotorValley University of Emilia-Romagna
-        location: "Modena & Varano De' Melegari, Italy"
+        location: "Modena &" 
+                  "Varano De' Melegari, Italy"
         url: https://www.motorvalleyuniversity.com
         area: Advanced Automotive Engineering - Racing Car Deisgn
         studyType: Masters
