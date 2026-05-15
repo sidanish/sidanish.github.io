@@ -59,32 +59,37 @@ cv:
           - Acheived high correlation of steady state lateral and longitudinal characteristics with test data from real car
           - Further concepts intended to recreate path of car using quasi-static data.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Applus+ IDIADA
+        position: Vehicle Dynamics (MBD) Engineer
+        location: Pune, Maharashtra, India
+        start_date: 2023
+        end_date: 2024
+        summary: "Member of the MBD department at IDIADA's India headquarters. Ran simulations, conducted development and analysis of vehicle suspension, tyres and chassis systems for multiple OEMs"
         highlights:
-          - Description 1.
-          - Description 2.
+          - One of my main projects involved the automation of standard simulations in MSC Adams. Used Python, command line and AI to create a complete automation toolkit that ran and processed simulations, and created reports.
+          - Used state of the art tyre models such as FTire to conduct simulations.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Indian Formula 4 Championship
+        position: Race Engineer
+        location: Chennai, Tamil Nadu, India
+        start_date: 2023
+        end_date: 2023
+        summary: Won a scholarship by the United Motorsports Academy to participate in the 2023 Indian F4 and IRL seasons.
+        highlights:
+          - Worked on multiple cars with multiple responsibilities ranging from data analysis to tyre preparation.
+          - Gained trackside expereince and skills. Understood the competences required to compete at a high level in a trackside, race engineering environment.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Orion Racing India
+        position: Aerodynamics and Vehicle Dynamics Lead
+        location: Mumbai, Maharashtra, India
+        start_date: 2019
+        end_date: 2023
+        summary: "Was a member of the aerodynamics and vehicle dynamics departments at the university's electric Formula Student Team"
+        highlights:
+          - Led a team of 20 engineers to design, manufacture, test and race an electric Formula Student car.
+          - Designed and manufactured a carbon fiber aerodynamics package with a 15% improvement in aerodynamic efficiency.
+          - Redesigned the kinematics and generated new dynamic data for the car.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
 
     Volunteer:
       - company: People's Climate March
@@ -145,12 +150,24 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
 
+      - name: Hindi
+        summary: "Fluent"
+
+      - name: Tamil
+        summary: "Native speaker"
+        
+      - name: Marathi
+        summary: "Elementary"
+        
+      - name: Italian
+        summary: "Elementary"
+        
+      - name: French
+        summary: "Basic"
+        
     Interests:
       - name: Physics
         icon: fa-solid fa-tag
