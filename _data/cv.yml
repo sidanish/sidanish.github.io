@@ -192,7 +192,7 @@ cv:
         start_date: 2025-05-20
         end_date: 2025-07-01
 
-      - name: Ride comfort of a vehicle: Vibrational Analysis of a 7 Degrees of Freedom system
+      - name: "Ride comfort of a vehicle: Vibrational Analysis of a 7 Degrees of Freedom system"
         summary: Project for the Mechanical Vibrations course at MUNER.
         highlights:
           - Development and analysis of a seven degrees of freedom (7-DOF) vehicle dynamic model built in MATLAB/Simulink. 
