@@ -154,39 +154,64 @@ cv:
         
     Interests:
       - name: Motor Racing
-        icon: fa-solid fa-tag
+        icon: fa-solid fa-car
         keywords: "Formula One, Endurance, IndyCar, NASCAR, MotoGP"
+      - name: Basketball
+        icon: fa-solid fa-basketball
+        keywords: "Los Angeles Lakers, LeBron James, Luka Doncic, Austin Reaves"
+      - name: Guitar
+        icon: fa-solid fa-guitar
+        keywords: "Trinity Grade 8 certified"
+      - name: Music
+        icon: fa-solid fa-music
+        keywords: "Rock, Metal, Blues, Country, Rap, Pop"       
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: MATLAB/Simulink Onramp
+        date: 2023-02
+        issuer: MathWorks
+        icon: fa-solid fa-flag-chcekered
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Certified Solidworks Professional
+        date: 2022-11
+        issuer: Dassault Systèmes
+        icon: fa-solid fa-flag-chcekered
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Performance Engineering in F1
+        date: 2022-07
+        issuer: Motorsport Engineer
+        icon: fa-solid fa-flag-chcekered
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Suspension and Full Car Analysis using Adams Car
+        summary: Project for the Vehicle Dynamics course at MUNER using the default half car and full car models in Adams Car.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Characterized front and rear suspension parameters for optimizing vehicle handling performance.
+          - Modifications to the front and rear suspension hardpoints were done using Adams Insight.
+          - The modifications to the suspension systems resulted in various performance improvements which were quantified.
+        start_date: 2025-05-20
+        end_date: 2025-07-01
 
+       - name: Ride comfort of a vehicle: Vibrational Analysis of a 7 Degrees of Freedom system
+        summary: Project for the Mechanical Vibrations course at MUNER.
+        highlights:
+          - Development and analysis of a seven degrees of freedom (7-DOF) vehicle dynamic model built in MATLAB/Simulink. 
+          - The aim was to evaluate the ride comfort on various scenarios considering 3 distinct road profiles (single bump, washboard and random).
+        start_date: 2024-09-30
+        end_date: 2024-12-19  
+      
+       - name: Automation of standard simulations in MSC Adams Car
+        summary: Key project at Applus+ IDIADA.
+        highlights:
+          - Used Python and Command line with AI integration.
+          - Created a one click tool for simulation, analysis and report creation.
+        start_date: 2024-09-30
+        end_date: 2024-12-19
+        
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Vivek Bardia - Manager at Applus+ IDIADA
+        icon: fa-solid fa-thumbs-up
+        reference: I am pleased to reccommend Siddharth Anish, who interned with Applus+ IDIADA under my guidance. Siddharth demonstrated exceptional technical and client managemnet skills, consistently applying his theoretical knowledge to practical scenarios effectively. I am confident he will excel in his future endeavors and make significant contributions to any organisation.
+                    (read full reccomendation on LinkedIn).
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+     
