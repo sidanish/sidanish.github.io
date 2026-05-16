@@ -170,12 +170,12 @@ cv:
       - name: MATLAB/Simulink Onramp
         date: 2023-02
         issuer: MathWorks
-        icon: fa-solid fa-flag-chcekered
+        icon: fa-solid fa-flag-checkered
 
       - name: Certified Solidworks Professional
         date: 2022-11
         issuer: Dassault Systèmes
-        icon: fa-solid fa-flag-chcekered
+        icon: fa-solid fa-flag-checkered
 
       - name: Performance Engineering in F1
         date: 2022-07
@@ -192,7 +192,7 @@ cv:
         start_date: 2025-05-20
         end_date: 2025-07-01
 
-       - name: Ride comfort of a vehicle: Vibrational Analysis of a 7 Degrees of Freedom system
+      - name: Ride comfort of a vehicle: Vibrational Analysis of a 7 Degrees of Freedom system
         summary: Project for the Mechanical Vibrations course at MUNER.
         highlights:
           - Development and analysis of a seven degrees of freedom (7-DOF) vehicle dynamic model built in MATLAB/Simulink. 
@@ -200,7 +200,7 @@ cv:
         start_date: 2024-09-30
         end_date: 2024-12-19  
       
-       - name: Automation of standard simulations in MSC Adams Car
+      - name: Automation of standard simulations in MSC Adams Car
         summary: Key project at Applus+ IDIADA.
         highlights:
           - Used Python and Command line with AI integration.
