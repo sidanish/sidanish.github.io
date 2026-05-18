@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MMR E-Driverless Rear Wing Improvement
+title: Design of a FSAE Rear Wing - A Systematic Approach
 description: Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing
 img: assets/img/ACAD_project/assembly_cad.png
 importance: 2
