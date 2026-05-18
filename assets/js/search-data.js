@@ -35,8 +35,8 @@ ninja.data = [{
           description: "Adams Car Suspension and Full Vehicle Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-mmr-e-driverless-rear-wing-improvement",
-          title: 'MMR E-Driverless Rear Wing Improvement',
+            },},{id: "projects-design-of-a-fsae-rear-wing-a-systematic-approach",
+          title: 'Design of a FSAE Rear Wing - A Systematic Approach',
           description: "Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
