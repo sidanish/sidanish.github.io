@@ -35,9 +35,9 @@ ninja.data = [{
           description: "Adams Car Suspension and Full Vehicle Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-design-of-a-fsae-rear-wing-a-systematic-approach",
-          title: 'Design of a FSAE Rear Wing - A Systematic Approach',
-          description: "Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing",
+            },},{id: "projects-design-of-an-fsae-rear-wing-a-systematic-approach",
+          title: 'Design of an FSAE Rear Wing - A Systematic Approach',
+          description: "Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing for the ACAD course final exam at MUNER.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
