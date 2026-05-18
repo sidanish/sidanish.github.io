@@ -1,81 +1,113 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: MSC ADAMS Car Project
+description: Adams Car Suspension and Full Vehicle Analysis
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was completed as part of the Vehicle Dynamics course in the Advanced Automotive Engineering – Racing Car Design curriculum at the Motorvehicle University of Emilia-Romagna (MUNER), AY 2024/25.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The objective was to optimize front and rear suspension hardpoints for improved handling performance, then validate the changes through full vehicle simulations including Step Steer and Single Lane Change analyses.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
+
+## Suspension Optimization
+
+Both front and rear suspensions were first simulated in a baseline configuration using an Opposite Wheel Travel analysis. Adams Insight was then used to run a Design of Experiments (DOE) to minimize toe variation across the wheel travel range, with camber set to *ignore*.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig01_front_baseline_assembly.jpg" title="Baseline Front Suspension Assembly" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig10_rear_baseline_assembly.jpg" title="Baseline Rear Suspension Assembly" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Baseline front suspension assembly. Right: Baseline rear suspension assembly, both built using default subsystems from acar_shared.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The optimized hardpoints relocated the tierod outer point closer to the wheel center, bringing it more in-plane with the wheel hub. This reduced bump steer significantly at both axles, at a minor cost to camber gain.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig06_front_toe_owt.jpg" title="Front Toe vs Wheel Travel" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig15_rear_toe_owt.jpg" title="Rear Toe vs Wheel Travel" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Toe vs Wheel Travel under Opposite Wheel Travel — front (left) and rear (right). The modified hardpoints (solid line) show notably reduced bump and droop steer compared to baseline (dashed).
+</div>
+
+---
+
+## Full Vehicle Analysis
+
+The optimized suspension assemblies were assembled into a full vehicle model. Vehicle mass, inertias, and center-of-mass Z-coordinate were scaled by a factor of **0.92**. Two tyre models were compared — **pac89** and **pac2002** — across Step Steer and Single Lane Change maneuvers at 90 kph.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/adams/fig20_roll_step_steer.jpg" title="Roll vs Time - Step Steer" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/adams/fig22_yaw_velocity_step_steer.jpg" title="Yaw Velocity vs Time - Step Steer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Step Steer at 90 kph. The pac2002 tyre (dashed) produces a higher peak roll angle and yaw velocity during the transient phase, while both models converge to similar steady-state values.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Key findings from the tyre comparison:
+- The **pac89** model responds earlier and shows more desirable cornering stiffness characteristics.
+- The **pac2002**, with 136 coefficients vs pac89's 52, captures overturning and scaling effects, and shows signs of **oversteer** tendencies as inferred from the yaw vs lateral acceleration diagrams.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+## Additional Simulations
+
+### Anti-Roll Bar (ARB) Study
+
+A rear ARB was fitted to the full vehicle and a Single Lane Change was run at 90 kph to isolate its effect. The ARB couples left/right vertical tyre motion, reducing body roll but increasing lateral load transfer at the rear axle — and consequently reducing overall axle grip.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig33_roll_arb_comparison.jpg" title="Roll vs Time - ARB Comparison" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig34_tyre_lat_force_arb.jpg" title="Rear Normal Load vs Time - ARB Comparison" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Single Lane Change at 90 kph with and without rear ARB. The ARB reduces body roll magnitude (left) while increasing lateral load transfer at the rear axle (right).
+</div>
 
-{% endraw %}
+### Double Lane Change at 100 kph
+
+A double lane change was run per NCAP stability control test settings. The modified vehicle achieved higher lateral acceleration and maintained a tighter path throughout, with quicker toe angle response — confirming the benefits of the hardpoint optimizations.
+
+### Step Steer at 90, 100, and 120 kph
+
+Speed sweep tests showed that as speed increases, the vehicle generates more yaw moment and higher peak lateral acceleration, with more lateral acceleration per unit steering wheel angle — consistent with expected understeer gradient behavior.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig41_swa_speed_sweep.jpg" title="SWA vs Lateral Acceleration - Speed Sweep" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/adams/fig42_yaw_speed_sweep.jpg" title="Yaw vs Lateral Acceleration - Speed Sweep" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Step Steer across 90, 100, and 120 kph. Higher speeds require less steering input per unit lateral acceleration and produce greater peak yaw velocity.
+</div>
+
+---
+
+## Conclusion
+
+Suspension hardpoint optimization using Adams Insight reduced bump steer at both axles. These improvements translated into measurable gains in full vehicle responsiveness and stability, validated across multiple standardized maneuvers and tyre models.
