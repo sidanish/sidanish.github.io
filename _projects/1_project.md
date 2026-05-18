@@ -2,7 +2,7 @@
 layout: page
 title: MSC ADAMS Car Project
 description: Adams Car Suspension and Full Vehicle Analysis
-img: assets/img/12.jpg
+img: assets/img/adams_figures/ADAMS_Project_title_card.jpg
 importance: 1
 category: work
 related_publications: false
@@ -20,10 +20,10 @@ Both front and rear suspensions were first simulated in a baseline configuration
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig01_front_baseline_assembly.jpg" title="Baseline Front Suspension Assembly" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig01_front_baseline_assembly.jpg" title="Baseline Front Suspension Assembly" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig10_rear_baseline_assembly.jpg" title="Baseline Rear Suspension Assembly" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig10_rear_baseline_assembly.jpg" title="Baseline Rear Suspension Assembly" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -34,10 +34,10 @@ The optimized hardpoints relocated the tierod outer point closer to the wheel ce
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig06_front_toe_owt.jpg" title="Front Toe vs Wheel Travel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig06_front_toe_owt.jpg" title="Front Toe vs Wheel Travel" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig15_rear_toe_owt.jpg" title="Rear Toe vs Wheel Travel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig15_rear_toe_owt.jpg" title="Rear Toe vs Wheel Travel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -52,10 +52,10 @@ The optimized suspension assemblies were assembled into a full vehicle model. Ve
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/adams/fig20_roll_step_steer.jpg" title="Roll vs Time - Step Steer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/adams_figures/fig20_roll_step_steer.jpg" title="Roll vs Time - Step Steer" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/adams/fig22_yaw_velocity_step_steer.jpg" title="Yaw Velocity vs Time - Step Steer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/adams_figures/fig22_yaw_velocity_step_steer.jpg" title="Yaw Velocity vs Time - Step Steer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -76,10 +76,10 @@ A rear ARB was fitted to the full vehicle and a Single Lane Change was run at 90
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig33_roll_arb_comparison.jpg" title="Roll vs Time - ARB Comparison" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig33_roll_arb_comparison.jpg" title="Roll vs Time - ARB Comparison" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig34_tyre_lat_force_arb.jpg" title="Rear Normal Load vs Time - ARB Comparison" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig34_tyre_lat_force_arb.jpg" title="Rear Normal Load vs Time - ARB Comparison" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -96,10 +96,10 @@ Speed sweep tests showed that as speed increases, the vehicle generates more yaw
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig41_swa_speed_sweep.jpg" title="SWA vs Lateral Acceleration - Speed Sweep" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig41_swa_speed_sweep.jpg" title="SWA vs Lateral Acceleration - Speed Sweep" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/adams/fig42_yaw_speed_sweep.jpg" title="Yaw vs Lateral Acceleration - Speed Sweep" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adams_figures/fig42_yaw_speed_sweep.jpg" title="Yaw vs Lateral Acceleration - Speed Sweep" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
