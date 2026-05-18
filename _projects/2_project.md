@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Design of a FSAE Rear Wing - A Systematic Approach
-description: Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing
+title: Design of an FSAE Rear Wing - A Systematic Approach
+description: Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing for the ACAD course final exam at MUNER.
 img: assets/img/ACAD_project/assembly_cad.png
 importance: 2
 category: work
