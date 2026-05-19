@@ -40,9 +40,9 @@ ninja.data = [{
           description: "Systematic aerodynamic redesign of a Formula Student rear wing assembly — from requirements through CFD, FEA, and detailed tolerancing for the ACAD course final exam at MUNER.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-ride-comfort-of-a-vehicle-7-dof-vibrational-analysis",
+          title: 'Ride Comfort of a Vehicle — 7-DOF Vibrational Analysis',
+          description: "Vibrational analysis of a 7 degrees-of-freedom vehicle model across three road profiles, implemented in MATLAB with modal analysis and direct numerical integration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
