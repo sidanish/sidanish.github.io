@@ -4,7 +4,7 @@ title: F1 Telemetry & Race Analysis Tool
 description: A config-driven Python notebook for visualising Formula 1 session data — telemetry traces, tyre strategy, lap distributions, weather overlays and more — built on FastF1 and matplotlib
 img: assets/img/fastf1/lap_times_2024_Bahrain_R.png
 importance: 1
-category: personal
+category: fun
 giscus_comments: true
 ---
 
