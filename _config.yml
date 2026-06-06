@@ -188,6 +188,7 @@ exclude:
   - _pages/experience.md
   - _pages/repositories.md
   - _pages/teaching.md
+  - _pages/publications.md
   - purgecss.config.js
   - README.md
   - readme_preview/
