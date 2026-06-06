@@ -55,9 +55,9 @@ ninja.data = [{
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-nba-play-by-play-scheme-amp-coaching-analysis",
+          title: 'NBA Play-by-Play Scheme &amp;amp; Coaching Analysis',
+          description: "A Python notebook for dissecting NBA game data from play-by-play feeds — shot profiles, scoring runs, foul patterns, substitution timing, and turnover breakdown, all pointing at the coaching decisions underneath",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
