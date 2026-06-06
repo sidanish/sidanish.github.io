@@ -5,7 +5,7 @@ description: A config-driven Python notebook for visualising Formula 1 session d
 img: assets/img/fastf1/lap_times_2024_Bahrain_R.png
 importance: 1
 category: fun
-giscus_comments: true
+giscus_comments: false
 ---
 
 A personal project born out of wanting to go beyond broadcast graphics and actually dig into the raw session data that FastF1 exposes. Point it at any race, qualifying or practice session, pick your drivers, and a single "main()" call produces up to **10 publication-quality plots**  in a consistent dark (or light) monospace theme. Still a work in progress that I plan to make into a one stop analysis platform with connections to live data. Similar to F1 Multiviewer but more race engineering oriented. Kind of a homemade verison of Racewatch if you will.
