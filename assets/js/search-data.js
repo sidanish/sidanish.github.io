@@ -45,9 +45,9 @@ ninja.data = [{
           description: "Vibrational analysis of a 7 degrees-of-freedom vehicle model across three road profiles, implemented in MATLAB with modal analysis and direct numerical integration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-f1-telemetry-amp-race-analysis-tool",
+          title: 'F1 Telemetry &amp;amp; Race Analysis Tool',
+          description: "A config-driven Python notebook for visualising Formula 1 session data — telemetry traces, tyre strategy, lap distributions, weather overlays and more — built on FastF1 and matplotlib",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
