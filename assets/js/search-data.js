@@ -55,7 +55,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-bachelor-thesis-aerodynamic-evaluation-of-an-fsae-car",
           title: 'Bachelor Thesis - Aerodynamic Evaluation of an FSAE Car',
-          description: "Full aerodynamics package design, CFD analysis, and carbon fibre manufacturing for the Orion Racing India FSAE car — Formula Student East 2022–23",
+          description: "Full aerodynamics package design, CFD analysis, and carbon fibre manufacturing for the 2023 Orion Racing India FSAE car",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
