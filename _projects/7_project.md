@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Bachelor Thesis - Aerodynamic Evaluation of an FSAE Car
-description: Full aerodynamics package design, CFD analysis, and carbon fibre manufacturing for the Orion Racing India FSAE car — Formula Student East 2022–23
+description: Full aerodynamics package design, CFD analysis, and carbon fibre manufacturing for the 2023 Orion Racing India FSAE car
 img: assets/img/project_fsae_aero_images/final_aero_design.png
 importance: 1
 category: work
 giscus_comments: true
 ---
 
-This project encompassed by Bachelor's Thesis at K.J Somaiya. It covers the end-to-end design, simulation, and manufacture of a complete aerodynamic package for **Orion Racing India**'s Formula Student Electric car, competing at **Formula Student East 2022–23**. The package — front wing, rear wing, bullhorn wing, side diffusers, and rear diffuser — was developed by Ritwik Deo, Aditya Shah, and Siddharth Anish as a final-year thesis at K.J. Somaiya College of Engineering, Mumbai, under the guidance of Prof. (Dr.) Shailesh R. Nikam.
+This project encompassed my Bachelor's Thesis at K.J Somaiya. It covers the end-to-end design, simulation, and manufacture of a complete aerodynamic package for **Orion Racing India**'s Formula Student Electric car, competing at **Formula Student East 2023**. The package — front wing, rear wing, bullhorn wing, side diffusers, and rear diffuser — was developed by me and my colleagues Ritwik Deo and Aditya Shah, as our final-year thesis at K.J. Somaiya College of Engineering, Mumbai, under the guidance of Prof. (Dr.) Shailesh R. Nikam.
 
 The primary goal was to maximise downforce while staying within the drag budget, and to achieve an aerodynamic balance of **54% front** — a slightly oversteering setup that lap-time simulations on the Hockenheim FSG track confirmed to be optimal.
 
