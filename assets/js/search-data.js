@@ -53,9 +53,9 @@ ninja.data = [{
           description: "A Python notebook for dissecting NBA game data from play-by-play feeds — shot profiles, scoring runs, foul patterns, substitution timing, and turnover breakdown, all pointing at the coaching decisions underneath",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-bachelor-thesis-aerodynamic-evaluation-of-an-fsae-car",
+          title: 'Bachelor Thesis - Aerodynamic Evaluation of an FSAE Car',
+          description: "Full aerodynamics package design, CFD analysis, and carbon fibre manufacturing for the Orion Racing India FSAE car — Formula Student East 2022–23",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
